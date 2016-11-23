@@ -1,11 +1,11 @@
-# Наклейки для бейджей
+# Badge stickers
 
-1. Установите зависимости `npm i`
-2. Добавьте данные в `index.html`
-2. Запустите сборку `node .`
-3. Распечайте получившийся `index.pdf`
+1. Install with `npm i`
+2. Add data into `index.html`
+2. Run the builder with `node .`
+3. Print out the resultant `index.pdf`
 
-Размеры меняются в директиве `@page`, по умолчанию A3 в альбомной ориентации.
+Change dimentions with `@page` (by default it's A3 either portrait or landscape).
 
 ```css
 @page {
@@ -14,4 +14,4 @@
 	}
 ```
 
-Первый лист с направляющими нужен для плоттерной резки.
+First list provides lines for cutting with plotter.
